@@ -9,7 +9,8 @@ import {
   ChevronDown,
   HelpCircle,
   Clock,
-  ShieldCheck
+  ShieldCheck,
+  Phone
 } from 'lucide-react';
 import { FAQ_ITEMS } from '@/data/products';
 
@@ -18,18 +19,40 @@ export const FloatingWhatsAppWidget: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'chat' | 'faq'>('chat');
   const [customMessage, setCustomMessage] = useState('');
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
+  const [selectedBranch, setSelectedBranch] = useState<'morocco' | 'uae'>('morocco');
 
-  const phoneNumber = '971508889922'; // FRASHI WhatsApp Concierge
+  const branches = {
+    morocco: {
+      name: 'المغرب (Morocco)',
+      flag: '🇲🇦',
+      callPhone: '+212610111314',
+      callDisplay: '+212 610 11 13 14',
+      whatsappPhone: '212611650381',
+      whatsappDisplay: '+212 611 65 03 81',
+      city: 'Casablanca Concierge'
+    },
+    uae: {
+      name: 'الإمارات والخليج',
+      flag: '🇦🇪',
+      callPhone: '+97148889922',
+      callDisplay: '+971 4 888 9922',
+      whatsappPhone: '971508889922',
+      whatsappDisplay: '+971 50 888 9922',
+      city: 'Dubai Flagship'
+    }
+  };
+
+  const currentBranch = branches[selectedBranch];
 
   const quickPrompts = [
-    { title: '🛋️ Fabric & Swatches', text: 'Hello FRASHI! I would like to request physical fabric and bouclé samples for my home.' },
-    { title: '📐 Custom Dimensions', text: 'Hello FRASHI! I want to check custom dimensions and room layout for my space.' },
-    { title: '🚚 Delivery & Assembly', text: 'Hello FRASHI! I have a question about white-glove delivery scheduling and assembly.' },
-    { title: '💳 Cash on Delivery', text: 'Hello FRASHI! I want to confirm Cash on Delivery payment for my upcoming order.' },
+    { title: '🇲🇦 استفسار وتوصيل المغرب', text: 'السلام عليكم فريق FRASHI! أود الاستفسار عن تصاميم الأثاث ومواعيد التوصيل في المغرب.' },
+    { title: '🛋️ عينات الأقمشة والبوكلي', text: 'Hello FRASHI! I would like to request physical fabric and bouclé samples for my home.' },
+    { title: '📐 تفصيل وأبعاد مخصصة', text: 'Hello FRASHI! I want to check custom dimensions and room layout for my space.' },
+    { title: '💳 الدفع عند الاستلام COD', text: 'Hello FRASHI! I want to confirm Cash on Delivery payment for my upcoming order.' },
   ];
 
   const handleSendWhatsApp = (text: string) => {
-    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/${currentBranch.whatsappPhone}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
@@ -47,7 +70,7 @@ export const FloatingWhatsAppWidget: React.FC = () => {
         <button
           onClick={() => setIsOpen(true)}
           className="group relative flex items-center gap-3 px-4 py-3 bg-[#128C7E] text-white rounded-full shadow-elevated hover:bg-[#075E54] transition-all duration-300 transform hover:scale-105"
-          aria-label="Open FRASHI WhatsApp Concierge"
+          aria-label="Open FRASHI WhatsApp & Phone Concierge"
         >
           {/* Pulsing indicator */}
           <span className="relative flex h-3 w-3">
@@ -58,9 +81,11 @@ export const FloatingWhatsAppWidget: React.FC = () => {
           <MessageCircle className="w-6 h-6" />
 
           <div className="text-left hidden sm:block">
-            <span className="text-xs font-bold block leading-tight">FRASHI Concierge</span>
+            <span className="text-xs font-bold block leading-tight flex items-center gap-1">
+              FRASHI Concierge <span className="text-[11px]">🇲🇦</span>
+            </span>
             <span className="text-[10px] text-emerald-100 block leading-tight font-arabic">
-              تحدث معنا واتساب
+              واتساب: 0611650381 • هاتف: 0610111314
             </span>
           </div>
 
@@ -73,7 +98,7 @@ export const FloatingWhatsAppWidget: React.FC = () => {
 
       {/* Expanded Luxury Chat & FAQ Card */}
       {isOpen && (
-        <div className="w-[360px] sm:w-[400px] bg-white rounded-2xl shadow-elevated border border-frashi-linen overflow-hidden animate-slide-up">
+        <div className="w-[360px] sm:w-[410px] bg-white rounded-2xl shadow-elevated border border-frashi-linen overflow-hidden animate-slide-up">
           {/* Header */}
           <div className="bg-[#075E54] text-white p-4">
             <div className="flex items-center justify-between">
@@ -111,7 +136,7 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                     : 'text-emerald-100 hover:bg-white/10'
                 }`}
               >
-                Instant WhatsApp
+                Instant Concierge
               </button>
               <button
                 onClick={() => setActiveTab('faq')}
@@ -121,30 +146,104 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                     : 'text-emerald-100 hover:bg-white/10'
                 }`}
               >
-                Quick FAQ Accordion
+                Quick FAQ
+              </button>
+            </div>
+          </div>
+
+          {/* Active Branch Direct Action Bar */}
+          <div className="p-3 bg-gradient-to-r from-emerald-50 to-amber-50/40 border-b border-frashi-linen flex items-center justify-between gap-2">
+            <div className="flex items-center gap-2">
+              <span className="text-xl">{currentBranch.flag}</span>
+              <div>
+                <div className="flex items-center gap-1.5">
+                  <span className="text-xs font-bold text-frashi-dark">{currentBranch.name}</span>
+                  <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 font-medium">مباشر</span>
+                </div>
+                <div className="text-[10px] text-emerald-900 flex flex-col leading-tight mt-0.5">
+                  <span>هاتف: {currentBranch.callDisplay}</span>
+                  <span className="font-semibold text-emerald-700">واتساب: {currentBranch.whatsappDisplay}</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-1.5">
+              <a
+                href={`tel:${currentBranch.callPhone}`}
+                className="px-2.5 py-1.5 bg-white hover:bg-emerald-50 text-emerald-900 border border-emerald-300 rounded-lg text-[11px] font-bold shadow-xs flex items-center gap-1 transition-all"
+                title="اتصال هاتفي مباشر"
+              >
+                <Phone className="w-3 h-3 text-emerald-700" />
+                <span>اتصال</span>
+              </a>
+              <a
+                href={`https://wa.me/${currentBranch.whatsappPhone}?text=Hello%20FRASHI!`}
+                target="_blank"
+                rel="noreferrer"
+                className="px-2.5 py-1.5 bg-[#128C7E] hover:bg-[#075E54] text-white rounded-lg text-[11px] font-bold shadow-xs flex items-center gap-1 transition-all"
+                title="محادثة واتساب"
+              >
+                <MessageCircle className="w-3 h-3" />
+                <span>واتساب</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Branch Switcher Pill */}
+          <div className="px-3 py-1.5 bg-white border-b border-frashi-linen/60 flex items-center justify-between text-[11px]">
+            <span className="text-frashi-stone text-[10px]">تغيير الفرع:</span>
+            <div className="flex gap-1">
+              <button
+                type="button"
+                onClick={() => setSelectedBranch('morocco')}
+                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-colors ${
+                  selectedBranch === 'morocco'
+                    ? 'bg-emerald-700 text-white'
+                    : 'text-frashi-charcoal hover:bg-frashi-sand'
+                }`}
+              >
+                🇲🇦 المغرب (+212)
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedBranch('uae')}
+                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-colors ${
+                  selectedBranch === 'uae'
+                    ? 'bg-emerald-700 text-white'
+                    : 'text-frashi-charcoal hover:bg-frashi-sand'
+                }`}
+              >
+                🇦🇪 الخليج (+971)
               </button>
             </div>
           </div>
 
           {/* Body Content */}
-          <div className="p-4 bg-frashi-cream/30 max-h-[380px] overflow-y-auto">
+          <div className="p-4 bg-frashi-cream/30 max-h-[360px] overflow-y-auto">
             {activeTab === 'chat' ? (
               <div className="space-y-4">
                 {/* Intro message bubble */}
                 <div className="bg-white p-3.5 rounded-xl rounded-tl-none border border-frashi-linen shadow-soft text-xs text-frashi-charcoal leading-relaxed">
                   <p className="font-semibold text-frashi-dark flex items-center gap-1 mb-1">
                     <Sparkles className="w-3.5 h-3.5 text-frashi-amber" />
-                    Marhaban & Welcome to FRASHI (فراشي)
+                    مرحباً بكم في فراشي FRASHI
                   </p>
                   <p>
-                    How can our interior stylists assist your home design today? Choose a quick topic below or type your inquiry to connect directly on WhatsApp:
+                    فريق خدمة العملاء ومصممو الديكور جاهزون لمساعدتكم. يمكنكم الاتصال هاتفياً مباشرة على الرقم{' '}
+                    <a href={`tel:${currentBranch.callPhone}`} className="font-bold text-emerald-800 underline">
+                      {currentBranch.callDisplay}
+                    </a>{' '}
+                    أو مراسلتنا مباشرة عبر الواتساب على{' '}
+                    <a href={`https://wa.me/${currentBranch.whatsappPhone}?text=Hello%20FRASHI!`} target="_blank" rel="noreferrer" className="font-bold text-emerald-700 underline">
+                      {currentBranch.whatsappDisplay}
+                    </a>:
                   </p>
                 </div>
 
                 {/* Quick Prompts */}
                 <div>
                   <p className="text-[11px] font-bold uppercase tracking-wider text-frashi-stone mb-2">
-                    Quick Inquiries:
+                    مواضيع سريعة:
                   </p>
                   <div className="space-y-1.5">
                     {quickPrompts.map((p, idx) => (
@@ -169,7 +268,7 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                       type="text"
                       value={customMessage}
                       onChange={(e) => setCustomMessage(e.target.value)}
-                      placeholder="Type custom question..."
+                      placeholder="اكتب رسالتك أو استفسارك هنا..."
                       className="w-full pl-3 pr-10 py-2.5 text-xs bg-white border border-frashi-linen rounded-xl focus:outline-none focus:border-emerald-600 text-frashi-dark"
                     />
                     <button
@@ -186,7 +285,7 @@ export const FloatingWhatsAppWidget: React.FC = () => {
               /* Interactive FAQ Accordion */
               <div className="space-y-2">
                 <p className="text-[11px] font-bold uppercase tracking-wider text-frashi-stone mb-2">
-                  Frequently Asked Questions:
+                  الأسئلة الشائعة FAQ:
                 </p>
                 {FAQ_ITEMS.map((faq, index) => {
                   const isExpanded = expandedFaq === index;
@@ -225,10 +324,10 @@ export const FloatingWhatsAppWidget: React.FC = () => {
           <div className="p-3 bg-white border-t border-frashi-linen flex items-center justify-between text-[11px] text-frashi-stone">
             <span>Powered by WhatsApp Business</span>
             <button
-              onClick={() => handleSendWhatsApp('Hello FRASHI! I would like to speak to an interior styling specialist.')}
+              onClick={() => handleSendWhatsApp('السلام عليكم FRASHI، أريد التحدث مع مصمم ديكور.')}
               className="text-[#075E54] font-bold hover:underline"
             >
-              Start Live Chat →
+              محادثة مباشرة الآن ←
             </button>
           </div>
         </div>

@@ -217,7 +217,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({ children
     phone: string;
     paymentMethod: string;
   }) => {
-    const phoneNumber = '971508889922'; // FRASHI Official Concierge
+    const phoneNumber = '212611650381'; // FRASHI Morocco WhatsApp Concierge
     const date = new Date().toLocaleDateString('en-GB');
 
     let msg = `*FRASHI (فراشي) Luxury Order Request*\n`;
