@@ -156,7 +156,8 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1533779283484-84e1871a2575?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "2 - 5 Business Days",
     assembly: "Two-Person White-Glove Installation Included",
@@ -212,7 +213,8 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1540518614846-7ede433c4ef3?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "3 - 5 Business Days",
     assembly: "Free In-Bedroom Professional Assembly Included",
@@ -269,7 +271,8 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1580481077195-c328ad4f3e69?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1580481077195-c328ad4f3e69?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "2 - 4 Business Days",
     assembly: "Arrives Fully Assembled in Protective Crate",
@@ -324,7 +327,8 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "3 - 5 Business Days",
     assembly: "Free White-Glove Table Leg Installation & Room Placement",
@@ -379,7 +383,8 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "2 - 5 Business Days",
     assembly: "Pre-Assembled Cabinetry with Simple Leg Setup",
@@ -434,7 +439,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1580481077195-c328ad4f3e69?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "2 - 4 Business Days",
     assembly: "Minimal assembly required (8 screws per chair)",
@@ -487,7 +494,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "3 - 6 Business Days",
     assembly: "Full In-Home Unpacking & Leveling Support",
@@ -540,7 +549,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7ede433c4ef3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "1 - 3 Business Days",
     assembly: "Simple 5-Minute Toolless Assembly",
@@ -592,7 +603,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "2 - 4 Business Days",
     assembly: "Fully Pre-Assembled",
@@ -645,7 +658,9 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "3 - 5 Business Days",
     assembly: "Free White-Glove In-Room Setup & Wall Securing",
@@ -661,6 +676,298 @@ export const PRODUCTS: Product[] = [
         verified: true
       }
     ]
+  },
+  {
+    id: "andalus-modular-boucle-sectional",
+    name: "Andalus Modular Curved Bouclé Sectional",
+    arabicName: "كنبة أندلس المعيارية الفاخرة المنحنية",
+    tagline: "Expansive cloud seating sculpted with organic curves and sink-in luxury",
+    category: "living-room",
+    categoryLabel: "Living Room",
+    price: 2450,
+    originalPrice: 2890,
+    rating: 5.0,
+    reviewsCount: 42,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 5,
+    material: "Textured Bouclé Fabric & Solid Beech Frame",
+    materialCategory: "boucle-velvet",
+    colors: [
+      { name: "Alabaster White", hex: "#F5F2EB", label: "Alabaster" },
+      { name: "Desert Sand", hex: "#DDD2C1", label: "Sand" },
+      { name: "Charcoal Shadow", hex: "#2C2A29", label: "Charcoal" }
+    ],
+    dimensions: {
+      width: "310 cm (122.0\")",
+      depth: "165 cm (Chaise: 65.0\")",
+      height: "75 cm (29.5\")",
+      seatHeight: "43 cm (16.9\")",
+      weight: "110 kg"
+    },
+    description: "The Andalus sectional commands attention with monumental organic fluidity. Designed as modular segments with interlocking hidden crocodile clips, allowing customizable right or left chaise orientations. Upholstered in tactile cloud-soft European bouclé.",
+    features: [
+      "Modular 3-piece interlocking sectional design",
+      "Extra-deep 105 cm sink-in lounge seating depth",
+      "Stain-resistant commercial performance bouclé weave",
+      "Feather-fiber blend topper over pocket-sprung core"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "3 - 5 Business Days",
+    assembly: "Two-Person White-Glove Installation & Packaging Disposal",
+    warranty: "10-Year Solid Hardwood Frame Warranty",
+    reviews: [
+      {
+        id: "rev-13",
+        author: "Yasmine B.",
+        city: "Casablanca, Maroc",
+        rating: 5,
+        date: "1 week ago",
+        comment: "Magnifique canapé ! Le tissu bouclé est d'une douceur incroyable et le design courbé transforme notre salon.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "marrakech-round-marble-dining-table",
+    name: "Marrakech Round Nero Marquina Marble Table",
+    arabicName: "طاولة طعام مراكش الرخامية الدائرية",
+    tagline: "Solid Nero Marquina marble slab resting on monolithic fluted smoked oak base",
+    category: "dining",
+    categoryLabel: "Dining Room",
+    price: 1890,
+    originalPrice: 2200,
+    rating: 4.9,
+    reviewsCount: 31,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 6,
+    material: "Spanish Nero Marquina Marble & Solid Smoked Oak",
+    materialCategory: "stone-marble",
+    colors: [
+      { name: "Nero Marquina & Smoked Oak", hex: "#1C1B1A", label: "Black Marble" },
+      { name: "Calacatta Gold & Natural Oak", hex: "#F3EDE4", label: "White Marble" }
+    ],
+    dimensions: {
+      width: "140 cm (Diameter: 55.1\")",
+      depth: "140 cm (55.1\")",
+      height: "76 cm (29.9\")",
+      tableClearance: "72 cm (28.3\")",
+      weight: "95 kg"
+    },
+    description: "Celebrating Moroccan and Mediterranean convivial dining, the Marrakech round table brings intimate dinner conversations to life. Features a honed solid marble disc with natural dramatic white veining over a cylindrical fluted oak pedestal.",
+    features: [
+      "Solid 30mm thick honed natural marble tabletop",
+      "Circular footprint comfortably seats 6 to 8 people",
+      "Stain-shield nano impregnator protects against wine and citrus",
+      "Fluted solid European oak pedestal weighted for zero wobble"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1604578762246-41134e37f9cc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1530018607912-eff2daa1bac4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "3 - 6 Business Days",
+    assembly: "Free White-Glove Heavy Marble Setup Included",
+    warranty: "Lifetime Natural Stone Integrity Guarantee",
+    reviews: [
+      {
+        id: "rev-14",
+        author: "Mehdi K.",
+        city: "Rabat, Maroc",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Le marbre est sublime avec des veines blanches naturelles uniques. Table majestueuse pour notre salle à manger.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "palais-japandi-minimalist-wardrobe",
+    name: "Palais Fluted Solid Oak Wardrobe",
+    arabicName: "خزانة ملابس قصر من خشب البلوط المضلع",
+    tagline: "Floor-to-ceiling sanctuary storage with integrated warm LED illumination",
+    category: "bedroom",
+    categoryLabel: "Bedroom",
+    price: 2150,
+    originalPrice: 2500,
+    rating: 4.9,
+    reviewsCount: 23,
+    isBestseller: false,
+    isNew: true,
+    inStock: true,
+    stockCount: 4,
+    material: "FSC® French White Oak & Brushed Brass Hardware",
+    materialCategory: "solid-wood",
+    colors: [
+      { name: "Natural Honey Oak", hex: "#D8C3A5", label: "Natural Oak" },
+      { name: "Smoked Espresso", hex: "#4A3B32", label: "Espresso Oak" }
+    ],
+    dimensions: {
+      width: "125 cm (49.2\")",
+      depth: "60 cm (23.6\")",
+      height: "210 cm (82.7\")",
+      weight: "115 kg"
+    },
+    description: "The Palais Wardrobe redefines bedroom organization. Dual soft-close doors with architectural vertical fluting open to reveal solid oak hanging rails, felt-lined jewelry drawers, and automated motion-activated warm LED light bars.",
+    features: [
+      "Precision fluted solid European white oak front doors",
+      "Integrated motion-sensor warm 2700K LED interior lighting",
+      "Adjustable modular shelving and dual solid wood hanging rods",
+      "Two hidden velvet-lined push-to-open accessory drawers"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "4 - 7 Business Days",
+    assembly: "Complete In-Bedroom Unpacking, Leveling & Wall Anchoring",
+    warranty: "15-Year Structural Frame Warranty",
+    reviews: [
+      {
+        id: "rev-15",
+        author: "Khadija E.",
+        city: "Casablanca, Maroc",
+        rating: 5,
+        date: "3 weeks ago",
+        comment: "Un chef d'œuvre dans notre chambre. L'éclairage intérieur automatique et la finition du bois sont d'une perfection rare.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "riad-sculptural-lounge-chaise",
+    name: "Riad Sculptural Bouclé Chaise Lounge",
+    arabicName: "شيزلونج رياض الاسترخائي المنحوت",
+    tagline: "Waveform ergonomic curves draped in tactile textured bouclé",
+    category: "living-room",
+    categoryLabel: "Living Room",
+    price: 1180,
+    originalPrice: 1390,
+    rating: 4.8,
+    reviewsCount: 36,
+    isBestseller: false,
+    isNew: true,
+    inStock: true,
+    stockCount: 8,
+    material: "Textured Italian Bouclé & Kiln-Dried Hardwood",
+    materialCategory: "boucle-velvet",
+    colors: [
+      { name: "Chalk Cream", hex: "#F3ECE1", label: "Chalk Cream" },
+      { name: "Oatmeal Warmth", hex: "#D8CAB8", label: "Oatmeal" },
+      { name: "Olive Velvet", hex: "#5C6753", label: "Olive" }
+    ],
+    dimensions: {
+      width: "175 cm (68.9\")",
+      depth: "78 cm (30.7\")",
+      height: "72 cm (28.3\")",
+      seatHeight: "38 cm (15.0\")",
+      weight: "36 kg"
+    },
+    description: "Designed for afternoon reading and tranquil reverie. The Riad Chaise Lounge follows the natural ergonomic contours of the human spine, offering zero-pressure body support enveloped in tactile textured Italian bouclé.",
+    features: [
+      "Ergonomic serpentine silhouette supporting full spinal alignment",
+      "Weighted anti-shift base with hidden protective glide pads",
+      "High-resiliency cold-cured molded foam retains form indefinitely",
+      "Matching cylindrical neck bolster cushion included"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "2 - 4 Business Days",
+    assembly: "Arrives Fully Assembled in Protective Crate",
+    warranty: "5-Year Structural Frame Warranty",
+    reviews: [
+      {
+        id: "rev-16",
+        author: "Anas M.",
+        city: "Marrakech, Maroc",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Confort absolu pour la lecture. La ligne sculpturale attire tous les regards dans notre salon.",
+        verified: true
+      }
+    ]
+  }
+];
+
+export interface LookbookItem {
+  id: string;
+  title: string;
+  arabicTitle: string;
+  space: string;
+  image: string;
+  featuredProductId: string;
+  description: string;
+}
+
+export const FURNITURE_LOOKBOOK: LookbookItem[] = [
+  {
+    id: "lookbook-1",
+    title: "The Sculptural Sunlit Salon",
+    arabicTitle: "صالون المعيشة المنحوت والمضيء",
+    space: "Living Room",
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "al-noor-curved-boucle-sofa",
+    description: "Organic serpentine lines meeting natural Mediterranean sunlight and French oak details."
+  },
+  {
+    id: "lookbook-2",
+    title: "Minimalist Master Sanctuary",
+    arabicTitle: "جناح النوم الهادئ بالخشب الطبيعي",
+    space: "Bedroom",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "zephyr-oak-canopy-platform-bed",
+    description: "Low-profile French oak platform bed with soft layered Belgian linen and ambient calm."
+  },
+  {
+    id: "lookbook-3",
+    title: "Convivial Monolithic Dining",
+    arabicTitle: "مساحة الطعام العائلية الرخامية",
+    space: "Dining",
+    image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "kanso-solid-oak-dining-table",
+    description: "Chamfered solid oak table welcoming family banquets and intimate candlelight dinners."
+  },
+  {
+    id: "lookbook-4",
+    title: "Tactile Travertine & Bouclé Lounge",
+    arabicTitle: "جلسة رخام الترافرتين وأقمشة البوكلي",
+    space: "Living Room",
+    image: "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "solstice-travertine-coffee-table",
+    description: "Monolithic Italian travertine paired with cloud-soft bouclé upholstery."
+  },
+  {
+    id: "lookbook-5",
+    title: "Executive Fluted Study",
+    arabicTitle: "المكتب التنفيذي من خشب الجوز المضلع",
+    space: "Home Office",
+    image: "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "verona-executive-desk",
+    description: "Cable-free refined productivity with walnut tambour fluting and leather top."
+  },
+  {
+    id: "lookbook-6",
+    title: "Curved Velveteen Reading Nook",
+    arabicTitle: "ركن القراءة بالمخمل والتصميم الدوار",
+    space: "Living Room",
+    image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "dune-velvet-swivel-armchair",
+    description: "360-degree silent brushed brass swivel armchair enveloping the reader in cocooning comfort."
   }
 ];
 
