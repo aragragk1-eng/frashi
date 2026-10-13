@@ -493,10 +493,10 @@ export const PRODUCTS: Product[] = [
       "Subtle brass shadow line reveal beneath stone top"
     ],
     images: [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "3 - 6 Business Days",
     assembly: "Full In-Home Unpacking & Leveling Support",
@@ -657,10 +657,10 @@ export const PRODUCTS: Product[] = [
       "Integrated wall anchor safety kit included"
     ],
     images: [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1544717305-2782549b5136?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "3 - 5 Business Days",
     assembly: "Free White-Glove In-Room Setup & Wall Securing",
@@ -1216,10 +1216,10 @@ export const PRODUCTS: Product[] = [
       "Recessed upper catch-all tray for keys, sunglasses, and fragrances"
     ],
     images: [
-      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80"
+      "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "2 - 4 Business Days",
     assembly: "Arrives Pre-Assembled with Wall Anti-Tip Hardware",
@@ -1382,7 +1382,7 @@ export const FURNITURE_LOOKBOOK: LookbookItem[] = [
     title: "Fluted Oak Entryway Shoe Sanctuary",
     arabicTitle: "خزانة أحذية أندلس والمدخل العصري",
     space: "Living Room",
-    image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
+    image: "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
     featuredProductId: "andalus-fluted-oak-shoe-cabinet",
     description: "Minimalist fluted timber shoe storage holding 24+ pairs without hallway clutter."
   }
