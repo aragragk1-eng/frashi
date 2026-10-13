@@ -154,7 +154,7 @@ export const PRODUCTS: Product[] = [
       "Subtle beveled edge profile softens stone hardness"
     ],
     images: [
-      "https://images.unsplash.com/photo-1533779283484-84e1871a2575?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80"
@@ -212,7 +212,7 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4ef3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80"
     ],
@@ -550,7 +550,7 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4ef3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "1 - 3 Business Days",
@@ -939,7 +939,7 @@ export const PRODUCTS: Product[] = [
     images: [
       "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7ede433c4ef3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
     ],
     deliveryEstimate: "1 - 3 Business Days",
@@ -1273,7 +1273,7 @@ export const PRODUCTS: Product[] = [
     ],
     images: [
       "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1533779283484-84e1871a2575?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1612196808214-b8e1d6145a8c?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
       "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=1200&q=80"
     ],
@@ -1457,7 +1457,7 @@ export const FAQ_ITEMS = [
   },
   {
     q: "Can I pay with Cash on Delivery (COD)?",
-    a: "Yes! FRASHI proudly supports Cash on Delivery across the UAE, Saudi Arabia, Qatar, and Kuwait. You inspect your furniture in your home before paying our delivery team, or you can pay securely online via Credit/Debit card."
+    a: "Yes! FRASHI proudly supports Cash on Delivery (الدفع عند الاستلام) across Morocco (Casablanca, Rabat, Marrakech, Tangier, and all cities) as well as the GCC. You inspect your furniture in your home before paying our delivery team, or you can pay securely online."
   },
   {
     q: "Can I order or customize dimensions directly via WhatsApp?",
