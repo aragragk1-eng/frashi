@@ -69,8 +69,8 @@ export const FloatingWhatsAppWidget: React.FC = () => {
             <span className="text-xs font-bold block leading-tight flex items-center gap-1">
               FRASHI Concierge <span className="text-[11px]">🇲🇦</span>
             </span>
-            <span className="text-[10px] text-emerald-100 block leading-tight font-arabic">
-              واتساب: 0611650381 • هاتف: 0610111314
+            <span dir="ltr" className="text-[10px] text-emerald-100 block leading-tight font-mono tracking-wider">
+              WA: 06 11 65 03 81 • Tel: 06 10 11 13 14
             </span>
           </div>
 
@@ -145,9 +145,15 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                   <span className="text-xs font-bold text-frashi-dark">{moroccoContact.name}</span>
                   <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 font-medium">مباشر</span>
                 </div>
-                <div className="text-[10px] text-emerald-900 flex flex-col leading-tight mt-0.5">
-                  <span>هاتف: {moroccoContact.callDisplay}</span>
-                  <span className="font-semibold text-emerald-700">واتساب: {moroccoContact.whatsappDisplay}</span>
+                <div className="text-[11px] text-emerald-950 flex flex-col gap-0.5 mt-1">
+                  <div className="flex items-center gap-1.5">
+                    <Phone className="w-3 h-3 text-emerald-700 flex-shrink-0" />
+                    <span dir="ltr" className="font-mono font-medium">{moroccoContact.callDisplay}</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <MessageCircle className="w-3 h-3 text-[#128C7E] flex-shrink-0" />
+                    <span dir="ltr" className="font-mono font-semibold text-emerald-800">{moroccoContact.whatsappDisplay}</span>
+                  </div>
                 </div>
               </div>
             </div>
@@ -186,11 +192,11 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                   </p>
                   <p>
                     فريق خدمة العملاء ومصممو الديكور جاهزون لمساعدتكم في المغرب. يمكنكم الاتصال هاتفياً مباشرة على الرقم{' '}
-                    <a href={`tel:${moroccoContact.callPhone}`} className="font-bold text-emerald-800 underline">
+                    <a href={`tel:${moroccoContact.callPhone}`} dir="ltr" className="font-bold font-mono text-emerald-800 underline inline-block">
                       {moroccoContact.callDisplay}
                     </a>{' '}
                     أو مراسلتنا مباشرة عبر الواتساب على{' '}
-                    <a href={`https://wa.me/${moroccoContact.whatsappPhone}?text=Hello%20FRASHI!`} target="_blank" rel="noreferrer" className="font-bold text-emerald-700 underline">
+                    <a href={`https://wa.me/${moroccoContact.whatsappPhone}?text=Hello%20FRASHI!`} target="_blank" rel="noreferrer" dir="ltr" className="font-bold font-mono text-emerald-700 underline inline-block">
                       {moroccoContact.whatsappDisplay}
                     </a>:
                   </p>
