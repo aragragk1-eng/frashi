@@ -40,8 +40,8 @@ export default function CheckoutPage() {
     lastName: '',
     email: '',
     phone: '',
-    country: 'United Arab Emirates',
-    city: 'Dubai',
+    country: 'Morocco',
+    city: 'Casablanca',
     area: '',
     street: '',
     building: '',
@@ -60,39 +60,39 @@ export default function CheckoutPage() {
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   // Quick auto-fill helper for test demonstrations
-  const handleAutoFill = (preset: 'dubai' | 'riyadh') => {
-    if (preset === 'dubai') {
+  const handleAutoFill = (preset: 'casablanca' | 'rabat') => {
+    if (preset === 'casablanca') {
       setFormData({
-        firstName: 'Layla',
-        lastName: 'Al-Mansoor',
-        email: 'layla.mansoor@example.com',
-        phone: '+971 50 123 4567',
-        country: 'United Arab Emirates',
-        city: 'Dubai',
-        area: 'Dubai Hills Estate',
-        street: 'Maple Avenue 4',
-        building: 'Villa 108',
-        deliveryNotes: 'Please ring the service gate. Elevator access available.',
+        firstName: 'أمين',
+        lastName: 'العلمي',
+        email: 'amine.alami@example.com',
+        phone: '+212 6 10 11 13 14',
+        country: 'Morocco',
+        city: 'Casablanca',
+        area: 'Anfa Supérieur',
+        street: 'Boulevard d\'Anfa',
+        building: 'Résidence Palmeraie, Appt 12',
+        deliveryNotes: 'توصيل مع التركيب المجاني.',
         paymentMethod: 'cod',
         whatsappConfirmation: true,
       });
-      setCardDetails((p) => ({ ...p, cardHolder: 'Layla Al-Mansoor' }));
+      setCardDetails((p) => ({ ...p, cardHolder: 'Amine Alami' }));
     } else {
       setFormData({
-        firstName: 'Tariq',
-        lastName: 'Al-Ghamdi',
-        email: 'tariq.ghamdi@example.com',
-        phone: '+966 50 987 6543',
-        country: 'Saudi Arabia',
-        city: 'Riyadh',
-        area: 'Al-Nakheel District',
-        street: 'King Fahd Road',
-        building: 'Villa 42',
-        deliveryNotes: 'Ground floor residence. Large double doors.',
+        firstName: 'سلمى',
+        lastName: 'بنسودة',
+        email: 'salma.bensouda@example.com',
+        phone: '+212 6 11 65 03 81',
+        country: 'Morocco',
+        city: 'Rabat',
+        area: 'Souissi',
+        street: 'Avenue Mohammed VI',
+        building: 'Villa 14',
+        deliveryNotes: 'الاتصال قبل الوصول بساعة.',
         paymentMethod: 'cod',
         whatsappConfirmation: true,
       });
-      setCardDetails((p) => ({ ...p, cardHolder: 'Tariq Al-Ghamdi' }));
+      setCardDetails((p) => ({ ...p, cardHolder: 'Salma Bensouda' }));
     }
   };
 
@@ -179,17 +179,17 @@ export default function CheckoutPage() {
               <div className="flex items-center gap-2">
                 <button
                   type="button"
-                  onClick={() => handleAutoFill('dubai')}
+                  onClick={() => handleAutoFill('casablanca')}
                   className="px-3 py-1.5 rounded-lg bg-white border border-frashi-linen hover:border-frashi-oak text-frashi-dark font-medium shadow-sm"
                 >
-                  Dubai Hills
+                  🇲🇦 Casablanca Anfa
                 </button>
                 <button
                   type="button"
-                  onClick={() => handleAutoFill('riyadh')}
+                  onClick={() => handleAutoFill('rabat')}
                   className="px-3 py-1.5 rounded-lg bg-white border border-frashi-linen hover:border-frashi-oak text-frashi-dark font-medium shadow-sm"
                 >
-                  Riyadh Al-Nakheel
+                  🇲🇦 Rabat Souissi
                 </button>
               </div>
             </div>
@@ -258,7 +258,7 @@ export default function CheckoutPage() {
                       required
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      placeholder="+971 50 123 4567"
+                      placeholder="+212 6 11 65 03 81"
                       className="w-full text-xs p-3 rounded-xl border border-frashi-linen bg-frashi-cream/30 focus:outline-none focus:border-frashi-oak"
                     />
                   </div>
@@ -272,6 +272,7 @@ export default function CheckoutPage() {
                       onChange={(e) => setFormData({ ...formData, country: e.target.value })}
                       className="w-full text-xs p-3 rounded-xl border border-frashi-linen bg-frashi-cream/30 focus:outline-none focus:border-frashi-oak cursor-pointer"
                     >
+                      <option value="Morocco">المغرب (Morocco)</option>
                       <option value="United Arab Emirates">United Arab Emirates (UAE)</option>
                       <option value="Saudi Arabia">Saudi Arabia (KSA)</option>
                       <option value="Qatar">Qatar</option>

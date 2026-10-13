@@ -50,100 +50,104 @@ export default function ContactPage() {
 
         {/* Flagship Showrooms Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Dubai Showroom */}
+          {/* Casablanca Flagship Showroom */}
           <div className="p-8 rounded-3xl bg-white border border-frashi-linen shadow-soft space-y-6">
             <div className="flex items-center justify-between">
               <span className="px-3 py-1 rounded-full bg-frashi-sand text-xs font-bold uppercase tracking-wider text-frashi-dark">
-                UAE Flagship
+                🇲🇦 صالون الدار البيضاء الرائد
               </span>
               <span className="text-xs text-emerald-700 font-semibold flex items-center gap-1">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                Open Today
+                مفتوح اليوم
               </span>
             </div>
 
             <div>
               <h2 className="font-serif text-2xl font-bold text-frashi-dark">
-                Dubai Design District (d3) Salon
+                Casablanca Anfa Flagship Salon
               </h2>
               <p className="text-xs text-frashi-stone mt-1">
-                Experience full living suites, tactile travertine slabs, and our complete bouclé library.
+                اكتشف تشكيلات الأثاث الفاخر، صالونات البوكلي العصرية، ورخام الترافرتين الطبيعي.
               </p>
             </div>
 
             <div className="space-y-3 text-xs text-frashi-charcoal border-t border-frashi-linen pt-4">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-frashi-oak flex-shrink-0 mt-0.5" />
-                <span>Building 7, Ground Salon 102, Dubai Design District, Dubai, UAE</span>
+                <span>Boulevard d&apos;Anfa, Casablanca, Maroc</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-frashi-oak flex-shrink-0" />
-                <span>Daily: 10:00 AM – 10:00 PM</span>
+                <span>يومياً: 10:00 صباحاً – 10:00 مساءً</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-frashi-oak flex-shrink-0" />
-                <span>+971 4 888 9922</span>
+                <a href="tel:+212610111314" className="hover:text-emerald-700 font-semibold">
+                  +212 610 11 13 14
+                </a>
               </div>
             </div>
 
             <div className="pt-2">
               <a
-                href="https://wa.me/971508889922?text=Hello%20FRASHI!%20I%20would%20like%20to%20book%20a%20private%20styling%20appointment%20at%20the%20Dubai%20d3%20Showroom."
+                href="https://wa.me/212611650381?text=Hello%20FRASHI!%20I%20would%20like%20to%20book%20a%20private%20styling%20appointment%20at%20the%20Casablanca%20Showroom."
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-3 px-4 rounded-xl bg-frashi-dark text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 hover:bg-frashi-charcoal transition-colors shadow-soft"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-400" />
-                <span>Book Dubai Private Styling Appointment</span>
+                <span>حجز موعد بفرع الدار البيضاء عبر الواتساب</span>
               </a>
             </div>
           </div>
 
-          {/* Riyadh Showroom */}
+          {/* Rabat Studio & Kingdom Concierge */}
           <div className="p-8 rounded-3xl bg-white border border-frashi-linen shadow-soft space-y-6">
             <div className="flex items-center justify-between">
               <span className="px-3 py-1 rounded-full bg-frashi-sand text-xs font-bold uppercase tracking-wider text-frashi-dark">
-                KSA Flagship
+                🇲🇦 الرباط وكافة مدن المغرب
               </span>
               <span className="text-xs text-emerald-700 font-semibold flex items-center gap-1">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                Open Today
+                استشارات وتوصيل
               </span>
             </div>
 
             <div>
               <h2 className="font-serif text-2xl font-bold text-frashi-dark">
-                Riyadh Olaya Towers Salon
+                Rabat Salon & Studio
               </h2>
               <p className="text-xs text-frashi-stone mt-1">
-                Featuring our dining oak collections, platform beds, and bespoke home office gallery.
+                استشارات التصميم الداخلي، معاينة عينات الأقمشة مجاناً، وخدمة التوصيل الشامل لكافة المدن.
               </p>
             </div>
 
             <div className="space-y-3 text-xs text-frashi-charcoal border-t border-frashi-linen pt-4">
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 text-frashi-oak flex-shrink-0 mt-0.5" />
-                <span>Olaya Towers, King Fahd Road, Al Olaya, Riyadh, Saudi Arabia</span>
+                <span>Avenue Mohammed VI, Souissi, Rabat, Maroc</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-frashi-oak flex-shrink-0" />
-                <span>Sat - Thu: 10:00 AM – 10:30 PM • Fri: 2:00 PM – 11:00 PM</span>
+                <span>الإثنين - السبت: 10:00 صباحاً – 09:30 مساءً</span>
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-frashi-oak flex-shrink-0" />
-                <span>+966 11 888 9922</span>
+                <a href="tel:+212610111314" className="hover:text-emerald-700 font-semibold">
+                  +212 610 11 13 14
+                </a>
               </div>
             </div>
 
             <div className="pt-2">
               <a
-                href="https://wa.me/971508889922?text=Hello%20FRASHI!%20I%20would%20like%20to%20book%20a%20private%20styling%20appointment%20at%20the%20Riyadh%20Showroom."
+                href="https://wa.me/212611650381?text=Hello%20FRASHI!%20I%20would%20like%20to%20request%20a%20styling%20consultation%20and%20fabric%20swatches."
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-3 px-4 rounded-xl bg-frashi-dark text-white text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 hover:bg-frashi-charcoal transition-colors shadow-soft"
               >
                 <MessageCircle className="w-4 h-4 text-emerald-400" />
-                <span>Book Riyadh Private Styling Appointment</span>
+                <span>طلب استشارة أو عينات عبر الواتساب</span>
               </a>
             </div>
           </div>
@@ -195,7 +199,7 @@ export default function ContactPage() {
                     required
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                    placeholder="+971 50 000 0000"
+                    placeholder="+212 6 11 65 03 81"
                     className="w-full p-3 rounded-xl border border-frashi-linen bg-frashi-cream/30 focus:outline-none focus:border-frashi-oak"
                   />
                 </div>

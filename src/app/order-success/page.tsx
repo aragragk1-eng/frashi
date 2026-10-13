@@ -44,8 +44,8 @@ function OrderSuccessContent() {
     }
   }, []);
 
-  const whatsappMsg = `Hello FRASHI Concierge! I just placed order #${orderId}. I would like to confirm my white-glove delivery scheduling.`;
-  const whatsappUrl = `https://wa.me/971508889922?text=${encodeURIComponent(whatsappMsg)}`;
+  const whatsappMsg = `Hello FRASHI Concierge! I just placed order #${orderId}. I would like to confirm my white-glove delivery scheduling in Morocco.`;
+  const whatsappUrl = `https://wa.me/212611650381?text=${encodeURIComponent(whatsappMsg)}`;
 
   return (
     <div className="bg-frashi-cream/30 min-h-screen py-16 sm:py-24">

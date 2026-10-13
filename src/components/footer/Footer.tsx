@@ -183,7 +183,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <a
-                  href="https://wa.me/971508889922?text=Hello%20FRASHI%2C%20I%20would%20like%20to%20request%20fabric%20swatches"
+                  href="https://wa.me/212611650381?text=Hello%20FRASHI%2C%20I%20would%20like%20to%20request%20fabric%20swatches"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-white transition-colors"
@@ -228,20 +228,10 @@ export const Footer: React.FC = () => {
               <div>
                 <p className="font-semibold text-white flex items-center gap-1.5">
                   <MapPin className="w-3.5 h-3.5 text-frashi-amber" />
-                  <span>Dubai Flagship</span>
+                  <span>Rabat Salon & Studio • الرباط</span>
                 </p>
                 <p className="text-[11px] text-frashi-stone mt-0.5">
-                  Building 7, Dubai Design District (d3), UAE
-                </p>
-              </div>
-
-              <div>
-                <p className="font-semibold text-white flex items-center gap-1.5">
-                  <MapPin className="w-3.5 h-3.5 text-frashi-amber" />
-                  <span>Riyadh Salon</span>
-                </p>
-                <p className="text-[11px] text-frashi-stone mt-0.5">
-                  Olaya Towers, King Fahd Road, Riyadh, KSA
+                  Avenue Mohammed VI, Souissi, Rabat, Maroc
                 </p>
               </div>
 

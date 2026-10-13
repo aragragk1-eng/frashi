@@ -19,40 +19,25 @@ export const FloatingWhatsAppWidget: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'chat' | 'faq'>('chat');
   const [customMessage, setCustomMessage] = useState('');
   const [expandedFaq, setExpandedFaq] = useState<number | null>(null);
-  const [selectedBranch, setSelectedBranch] = useState<'morocco' | 'uae'>('morocco');
-
-  const branches = {
-    morocco: {
-      name: 'المغرب (Morocco)',
-      flag: '🇲🇦',
-      callPhone: '+212610111314',
-      callDisplay: '+212 610 11 13 14',
-      whatsappPhone: '212611650381',
-      whatsappDisplay: '+212 611 65 03 81',
-      city: 'Casablanca Concierge'
-    },
-    uae: {
-      name: 'الإمارات والخليج',
-      flag: '🇦🇪',
-      callPhone: '+97148889922',
-      callDisplay: '+971 4 888 9922',
-      whatsappPhone: '971508889922',
-      whatsappDisplay: '+971 50 888 9922',
-      city: 'Dubai Flagship'
-    }
+  const moroccoContact = {
+    name: 'المغرب (Morocco)',
+    flag: '🇲🇦',
+    callPhone: '+212610111314',
+    callDisplay: '+212 610 11 13 14',
+    whatsappPhone: '212611650381',
+    whatsappDisplay: '+212 611 65 03 81',
+    city: 'Casablanca Concierge'
   };
 
-  const currentBranch = branches[selectedBranch];
-
   const quickPrompts = [
-    { title: '🇲🇦 استفسار وتوصيل المغرب', text: 'السلام عليكم فريق FRASHI! أود الاستفسار عن تصاميم الأثاث ومواعيد التوصيل في المغرب.' },
-    { title: '🛋️ عينات الأقمشة والبوكلي', text: 'Hello FRASHI! I would like to request physical fabric and bouclé samples for my home.' },
-    { title: '📐 تفصيل وأبعاد مخصصة', text: 'Hello FRASHI! I want to check custom dimensions and room layout for my space.' },
-    { title: '💳 الدفع عند الاستلام COD', text: 'Hello FRASHI! I want to confirm Cash on Delivery payment for my upcoming order.' },
+    { title: '🇲🇦 استفسار وتوصيل بالمغرب', text: 'السلام عليكم فريق FRASHI! أود الاستفسار عن تصاميم الأثاث ومواعيد التوصيل في المغرب.' },
+    { title: '🛋️ عينات الأقمشة والبوكلي مجاناً', text: 'السلام عليكم FRASHI! أود طلب عينات مجانية من أقمشة البوكلي والمخمل إلى عنواني بالمغرب.' },
+    { title: '📐 تفصيل وأبعاد مخصصة', text: 'السلام عليكم FRASHI! أرغب في استشارة حول تفصيل أثاث بمقاسات خاصة لمنزلي.' },
+    { title: '💳 الدفع عند الاستلام COD بالمغرب', text: 'السلام عليكم FRASHI! أريد تأكيد طلبي مع إمكانية الدفع عند الاستلام والمعاينة.' },
   ];
 
   const handleSendWhatsApp = (text: string) => {
-    const url = `https://wa.me/${currentBranch.whatsappPhone}?text=${encodeURIComponent(text)}`;
+    const url = `https://wa.me/${moroccoContact.whatsappPhone}?text=${encodeURIComponent(text)}`;
     window.open(url, '_blank', 'noopener,noreferrer');
   };
 
@@ -151,25 +136,25 @@ export const FloatingWhatsAppWidget: React.FC = () => {
             </div>
           </div>
 
-          {/* Active Branch Direct Action Bar */}
+          {/* Moroccan Direct Action Bar */}
           <div className="p-3 bg-gradient-to-r from-emerald-50 to-amber-50/40 border-b border-frashi-linen flex items-center justify-between gap-2">
             <div className="flex items-center gap-2">
-              <span className="text-xl">{currentBranch.flag}</span>
+              <span className="text-xl">{moroccoContact.flag}</span>
               <div>
                 <div className="flex items-center gap-1.5">
-                  <span className="text-xs font-bold text-frashi-dark">{currentBranch.name}</span>
+                  <span className="text-xs font-bold text-frashi-dark">{moroccoContact.name}</span>
                   <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800 font-medium">مباشر</span>
                 </div>
                 <div className="text-[10px] text-emerald-900 flex flex-col leading-tight mt-0.5">
-                  <span>هاتف: {currentBranch.callDisplay}</span>
-                  <span className="font-semibold text-emerald-700">واتساب: {currentBranch.whatsappDisplay}</span>
+                  <span>هاتف: {moroccoContact.callDisplay}</span>
+                  <span className="font-semibold text-emerald-700">واتساب: {moroccoContact.whatsappDisplay}</span>
                 </div>
               </div>
             </div>
 
             <div className="flex items-center gap-1.5">
               <a
-                href={`tel:${currentBranch.callPhone}`}
+                href={`tel:${moroccoContact.callPhone}`}
                 className="px-2.5 py-1.5 bg-white hover:bg-emerald-50 text-emerald-900 border border-emerald-300 rounded-lg text-[11px] font-bold shadow-xs flex items-center gap-1 transition-all"
                 title="اتصال هاتفي مباشر"
               >
@@ -177,7 +162,7 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                 <span>اتصال</span>
               </a>
               <a
-                href={`https://wa.me/${currentBranch.whatsappPhone}?text=Hello%20FRASHI!`}
+                href={`https://wa.me/${moroccoContact.whatsappPhone}?text=Hello%20FRASHI!`}
                 target="_blank"
                 rel="noreferrer"
                 className="px-2.5 py-1.5 bg-[#128C7E] hover:bg-[#075E54] text-white rounded-lg text-[11px] font-bold shadow-xs flex items-center gap-1 transition-all"
@@ -186,35 +171,6 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                 <MessageCircle className="w-3 h-3" />
                 <span>واتساب</span>
               </a>
-            </div>
-          </div>
-
-          {/* Branch Switcher Pill */}
-          <div className="px-3 py-1.5 bg-white border-b border-frashi-linen/60 flex items-center justify-between text-[11px]">
-            <span className="text-frashi-stone text-[10px]">تغيير الفرع:</span>
-            <div className="flex gap-1">
-              <button
-                type="button"
-                onClick={() => setSelectedBranch('morocco')}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-colors ${
-                  selectedBranch === 'morocco'
-                    ? 'bg-emerald-700 text-white'
-                    : 'text-frashi-charcoal hover:bg-frashi-sand'
-                }`}
-              >
-                🇲🇦 المغرب (+212)
-              </button>
-              <button
-                type="button"
-                onClick={() => setSelectedBranch('uae')}
-                className={`px-2 py-0.5 rounded text-[10px] font-semibold transition-colors ${
-                  selectedBranch === 'uae'
-                    ? 'bg-emerald-700 text-white'
-                    : 'text-frashi-charcoal hover:bg-frashi-sand'
-                }`}
-              >
-                🇦🇪 الخليج (+971)
-              </button>
             </div>
           </div>
 
@@ -229,13 +185,13 @@ export const FloatingWhatsAppWidget: React.FC = () => {
                     مرحباً بكم في فراشي FRASHI
                   </p>
                   <p>
-                    فريق خدمة العملاء ومصممو الديكور جاهزون لمساعدتكم. يمكنكم الاتصال هاتفياً مباشرة على الرقم{' '}
-                    <a href={`tel:${currentBranch.callPhone}`} className="font-bold text-emerald-800 underline">
-                      {currentBranch.callDisplay}
+                    فريق خدمة العملاء ومصممو الديكور جاهزون لمساعدتكم في المغرب. يمكنكم الاتصال هاتفياً مباشرة على الرقم{' '}
+                    <a href={`tel:${moroccoContact.callPhone}`} className="font-bold text-emerald-800 underline">
+                      {moroccoContact.callDisplay}
                     </a>{' '}
                     أو مراسلتنا مباشرة عبر الواتساب على{' '}
-                    <a href={`https://wa.me/${currentBranch.whatsappPhone}?text=Hello%20FRASHI!`} target="_blank" rel="noreferrer" className="font-bold text-emerald-700 underline">
-                      {currentBranch.whatsappDisplay}
+                    <a href={`https://wa.me/${moroccoContact.whatsappPhone}?text=Hello%20FRASHI!`} target="_blank" rel="noreferrer" className="font-bold text-emerald-700 underline">
+                      {moroccoContact.whatsappDisplay}
                     </a>:
                   </p>
                 </div>

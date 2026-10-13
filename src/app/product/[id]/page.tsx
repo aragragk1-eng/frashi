@@ -260,7 +260,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
                   Select Finish / Fabric: <span className="text-frashi-oak normal-case font-semibold">{selectedColor.name}</span>
                 </label>
                 <a
-                  href={`https://wa.me/971508889922?text=Hello%20FRASHI!%20Can%20I%20order%20physical%20fabric%20swatches%20for%20the%20${encodeURIComponent(product.name)}?`}
+                  href={`https://wa.me/212611650381?text=Hello%20FRASHI!%20Can%20I%20order%20physical%20fabric%20swatches%20for%20the%20${encodeURIComponent(product.name)}?`}
                   target="_blank"
                   rel="noreferrer"
                   className="text-[11px] text-frashi-oak hover:underline font-semibold"
@@ -373,7 +373,7 @@ export default function ProductDetailPage({ params }: { params: { id: string } }
 
               {/* Direct WhatsApp Quick Order */}
               <a
-                href={`https://wa.me/971508889922?text=Hello%20FRASHI!%20I%20would%20like%20to%20order%20the%20${encodeURIComponent(product.name)}%20(${encodeURIComponent(selectedColor.name)})%20for%20${encodeURIComponent(formatPrice(product.price * quantity))}.%20Can%20we%20proceed%20with%20Cash%20on%20Delivery?`}
+                href={`https://wa.me/212611650381?text=Hello%20FRASHI!%20I%20would%20like%20to%20order%20the%20${encodeURIComponent(product.name)}%20(${encodeURIComponent(selectedColor.name)})%20for%20${encodeURIComponent(formatPrice(product.price * quantity))}.%20Can%20we%20proceed%20with%20Cash%20on%20Delivery?`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-3.5 px-4 rounded-xl border border-emerald-600/40 bg-emerald-50 text-emerald-900 text-xs font-semibold flex items-center justify-center gap-2 hover:bg-emerald-100 transition-colors"
