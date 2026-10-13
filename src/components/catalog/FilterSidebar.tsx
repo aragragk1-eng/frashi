@@ -38,11 +38,11 @@ export const FilterSidebar: React.FC<FilterSidebarProps> = ({
   };
 
   const categories = [
-    { id: 'all', label: 'All Spaces' },
-    { id: 'living-room', label: 'Living Room' },
-    { id: 'bedroom', label: 'Bedroom' },
-    { id: 'dining', label: 'Dining Room' },
-    { id: 'office', label: 'Home Office' },
+    { id: 'all', label: 'All Spaces (كافة الفضاءات)' },
+    { id: 'living-room', label: 'Living Room (صالونات وأرائك)' },
+    { id: 'bedroom', label: 'Bedroom (غرف النوم والخزائن)' },
+    { id: 'dining', label: 'Dining Room (طاولات الطعام والكراسي)' },
+    { id: 'office', label: 'Home Office (المكاتب والأرفف)' },
   ];
 
   const materials = [

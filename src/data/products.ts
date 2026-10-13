@@ -901,6 +901,396 @@ export const PRODUCTS: Product[] = [
         verified: true
       }
     ]
+  },
+  {
+    id: "atlas-travertine-brass-table-lamp",
+    name: "Atlas Travertine & Fluted Brass Table Lamp",
+    arabicName: "مصباح طاولة أطلس بحجر الترافرتين والنحاس (مصابيح فاخرة)",
+    tagline: "Sculptural honed Roman travertine cylinder base with warm fluted brass shade",
+    category: "living-room",
+    categoryLabel: "Lighting & Living",
+    price: 340,
+    originalPrice: 420,
+    rating: 4.9,
+    reviewsCount: 26,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 15,
+    material: "Honed Roman Travertine, Spun Brushed Brass & Matte Linen Shade",
+    materialCategory: "stone-marble",
+    colors: [
+      { name: "Raw Roman Ivory", hex: "#EBE3D5", label: "Travertine Ivory" },
+      { name: "Smoked Silver Travertine", hex: "#B8B1A7", label: "Silver Travertine" }
+    ],
+    dimensions: {
+      width: "35 cm (13.8\")",
+      depth: "35 cm (13.8\")",
+      height: "54 cm (21.3\")",
+      weight: "8.5 kg"
+    },
+    description: "The Atlas table lamp brings sculptural warmth and ambient museum-quality lighting to consoles, bedside tables, and executive desks. The monolithic cylindrical base is carved from solid Italian travertine, topped with a warm brushed brass rotary dimmer switch.",
+    features: [
+      "Solid carved Roman travertine stone cylinder base",
+      "Satin spun brushed brass accent collar and finial",
+      "Rotary brass dimmer on base controlling 2700K warm LED light",
+      "Textured natural linen drum shade dispersing soft glare-free light"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1513506003901-1e6a229e2d15?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1540518614846-7ede433c4ef3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "1 - 3 Business Days",
+    assembly: "Arrives Fully Assembled with Included Warm LED Bulb",
+    warranty: "3-Year Electrical & Finish Guarantee",
+    reviews: [
+      {
+        id: "rev-20",
+        author: "Amina R.",
+        city: "Casablanca, Maroc",
+        rating: 5,
+        date: "5 days ago",
+        comment: "Une lampe bijou ! Le socle en travertin véritable est lourd et magnifique sur notre buffet en chêne.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "mila-curved-boucle-loveseat",
+    name: "Mila Compact Curved 2-Seater Bouclé Loveseat",
+    arabicName: "أريكة ميلا الصغيرة ثنائية المقاعد بقماش البوكلي (أريكة صغيرة)",
+    tagline: "Intimate sculptural curves tailored for cozy salons, reading corners, and master suites",
+    category: "living-room",
+    categoryLabel: "Living Room",
+    price: 1190,
+    originalPrice: 1380,
+    rating: 4.9,
+    reviewsCount: 38,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 9,
+    material: "Italian Textured Bouclé & Solid Oak Hidden Frame",
+    materialCategory: "boucle-velvet",
+    colors: [
+      { name: "Warm Alabaster", hex: "#F3ECE1", label: "Alabaster" },
+      { name: "Oatmeal Beige", hex: "#D6C7B2", label: "Oatmeal" },
+      { name: "Moss Velvet", hex: "#5C6753", label: "Moss" }
+    ],
+    dimensions: {
+      width: "165 cm (65.0\")",
+      depth: "92 cm (36.2\")",
+      height: "76 cm (29.9\")",
+      seatHeight: "42 cm (16.5\")",
+      weight: "44 kg"
+    },
+    description: "The Mila Loveseat delivers the celebrated organic contours of our larger sofas in a space-conscious compact 2-seater scale. Perfect for apartments, bedroom seating zones, or complementary fireside seating in larger salons.",
+    features: [
+      "Compact 165 cm width fitting standard Moroccan salons and boutique spaces",
+      "Continuous barrel backrest enveloping two sitters in cocooning comfort",
+      "Commercial-grade stain-resistant European bouclé",
+      "Reinforced corner-blocked kiln-dried hardwood frame"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "2 - 4 Business Days",
+    assembly: "White-Glove In-Room Delivery & Leveling Included",
+    warranty: "10-Year Structural Frame Warranty",
+    reviews: [
+      {
+        id: "rev-21",
+        author: "Nabila T.",
+        city: "Rabat, Maroc",
+        rating: 5,
+        date: "1 week ago",
+        comment: "Idéal pour notre coin lecture. La courbe est très raffinée et l'assise est ferme et moelleuse à la fois.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "somno-luxury-convertible-sleeper-sofa",
+    name: "Somno Luxury Queen Convertible Sleeper Sofa",
+    arabicName: "أريكة سومنو الكبيرة للنوم الفاخرة القابلة للتحويل (أريكة سرير)",
+    tagline: "Effortless silent German conversion mechanism transforming into a deep queen memory-foam bed",
+    category: "living-room",
+    categoryLabel: "Living Room",
+    price: 2280,
+    originalPrice: 2650,
+    rating: 5.0,
+    reviewsCount: 45,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 6,
+    material: "High-Density Belgian Weave Fabric & Kiln-Dried Hardwood",
+    materialCategory: "boucle-velvet",
+    colors: [
+      { name: "Sandstone Linen Weave", hex: "#D6C7B2", label: "Sandstone" },
+      { name: "Charcoal Slate", hex: "#3A3835", label: "Charcoal" },
+      { name: "Pebble Cream", hex: "#ECE6DD", label: "Pebble Cream" }
+    ],
+    dimensions: {
+      width: "228 cm (89.8\")",
+      depth: "105 cm (Bed open: 215 cm)",
+      height: "82 cm (32.3\")",
+      seatHeight: "44 cm (17.3\")",
+      weight: "98 kg"
+    },
+    description: "No compromise between day lounge aesthetics and restful night sleep. The Somno sleeper sofa converts silently in one fluid movement without removing back cushions, revealing an authentic 14 cm pocket-sprung queen mattress with breathable cooling memory foam.",
+    features: [
+      "Patented one-touch conversion mechanism without removing cushions",
+      "True Queen-size 150x200 cm sleeping surface for 2 adults",
+      "Integrated 14 cm multi-density pocket-spring mattress with gel topper",
+      "Breathable stain-guarded Belgian architectural weave fabric"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1550581190-9c1c48d21d6c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "3 - 5 Business Days",
+    assembly: "Two-Person White-Glove Installation & Demonstration Included",
+    warranty: "10-Year Mechanism & Structural Frame Warranty",
+    reviews: [
+      {
+        id: "rev-22",
+        author: "Karim D.",
+        city: "Marrakech, Maroc",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Nos invités ont dormi comme dans un hôtel 5 étoiles. Le mécanisme s'ouvre d'une seule main sans aucun effort.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "majlis-oak-dining-set-with-chairs",
+    name: "Majlis Solid Oak Dining Table & 6 Armchairs Ensemble",
+    arabicName: "طقم مائدة طعام مجلس مع 6 كراسي فاخرة (مائدة بالكراسي)",
+    tagline: "Complete monolithic chamfered oak dining table paired with 6 tactile curved armchairs",
+    category: "dining",
+    categoryLabel: "Dining Ensemble",
+    price: 2680,
+    originalPrice: 3100,
+    rating: 5.0,
+    reviewsCount: 39,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 4,
+    material: "100% Solid European Oak & Textured Bouclé Dining Chairs",
+    materialCategory: "solid-wood",
+    colors: [
+      { name: "Natural Honey Oak & Pearl Bouclé", hex: "#C79D6D", label: "Natural Oak" },
+      { name: "Smoked Espresso Oak & Charcoal", hex: "#3D3128", label: "Smoked Oak" }
+    ],
+    dimensions: {
+      width: "240 cm (Table: 94.5\")",
+      depth: "100 cm (39.4\")",
+      height: "76 cm (29.9\")",
+      weight: "118 kg (Full 7-piece set)"
+    },
+    description: "The complete dining ensemble designed for harmonious banquets. Includes our 240 cm solid French oak table and 6 perfectly proportioned Elysian bouclé armchairs that tuck seamlessly beneath the chamfered table edge.",
+    features: [
+      "Complete 7-Piece Set: 1 Solid Oak Dining Table + 6 Curved Armchairs",
+      "Accommodates up to 8-10 people comfortably",
+      "Stain-resistant hardwax oil finish immune to hot plates and spills",
+      "High-density molded chairs with seamless bouclé lumbar cushioning"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1577140917170-285929fb55b7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1567538096630-e0c55bd6374c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "3 - 6 Business Days",
+    assembly: "White-Glove Assembly, Chair Leveling & Packaging Clearance",
+    warranty: "25-Year Solid Wood Table Warranty & 5-Year Chair Warranty",
+    reviews: [
+      {
+        id: "rev-23",
+        author: "Soukaina H.",
+        city: "Tanger, Maroc",
+        rating: 5,
+        date: "3 weeks ago",
+        comment: "Achat parfait. L'ensemble est d'une élégance rare et le bois sent le chêne naturel noble.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "atlas-triple-door-mirrored-wardrobe",
+    name: "Atlas Triple-Door Oak & Smoked Glass Wardrobe",
+    arabicName: "خزانة ملابس أطلس ثلاثية الأبواب بالزجاج المدخن والبلوط (خزانة ملابس)",
+    tagline: "Architectural wardrobe with acoustic soft-close doors, integrated wardrobe rail, and drawer vaults",
+    category: "bedroom",
+    categoryLabel: "Bedroom Storage",
+    price: 2450,
+    originalPrice: 2850,
+    rating: 4.9,
+    reviewsCount: 28,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 5,
+    material: "French Solid Oak, Smoked Tempered Glass & Brushed Brass",
+    materialCategory: "solid-wood",
+    colors: [
+      { name: "Natural Honey Oak", hex: "#D8C3A5", label: "Natural Oak" },
+      { name: "Smoked Raven Oak", hex: "#2E2822", label: "Smoked Raven" }
+    ],
+    dimensions: {
+      width: "180 cm (70.9\")",
+      depth: "62 cm (24.4\")",
+      height: "215 cm (84.6\")",
+      weight: "145 kg"
+    },
+    description: "An architectural tour de force for the master bedroom sanctuary. Featuring three full-height doors pairing solid fluted oak with subtly smoked bronze glass panels, lined with dual soft-glow interior LED vertical strip channels.",
+    features: [
+      "Three soft-close doors with fluted solid oak and smoked safety glass",
+      "Integrated dual warm 2700K motion-sensing LED light channels",
+      "Four internal velvet-lined soft-close accessory drawers with dividers",
+      "Dual heavy-gauge brass coat hanging rails for suits, dresses and abayas"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "4 - 7 Business Days",
+    assembly: "Professional In-Home Installation, Leveling & Wall Anchor Included",
+    warranty: "15-Year Structural Frame Warranty",
+    reviews: [
+      {
+        id: "rev-24",
+        author: "Dr. Hamza F.",
+        city: "Casablanca, Maroc",
+        rating: 5,
+        date: "2 weeks ago",
+        comment: "Rangement immense et éclairage somptueux. Les portes se ferment dans un silence absolu.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "andalus-fluted-oak-shoe-cabinet",
+    name: "Andalus Fluted Oak Entryway Shoe Storage Cabinet",
+    arabicName: "خزانة أحذية أندلس العصرية من خشب البلوط المضلع (خزانة الأحذية)",
+    tagline: "Slimline architectural entryway cabinet holding 24+ pairs with ventilated fluted slats & brass handles",
+    category: "living-room",
+    categoryLabel: "Entryway & Storage",
+    price: 780,
+    originalPrice: 920,
+    rating: 4.8,
+    reviewsCount: 34,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 11,
+    material: "FSC® Solid White Oak, Ventilated Louvers & Brushed Brass",
+    materialCategory: "solid-wood",
+    colors: [
+      { name: "Natural Sand Oak", hex: "#D6C3A7", label: "Sand Oak" },
+      { name: "Smoked Espresso Oak", hex: "#4A3B32", label: "Espresso Oak" }
+    ],
+    dimensions: {
+      width: "110 cm (43.3\")",
+      depth: "36 cm (Slimline: 14.2\")",
+      height: "105 cm (41.3\")",
+      weight: "46 kg"
+    },
+    description: "Transforms the entrance of your home with uncluttered minimalist calm. Behind the three fluted push-to-open doors lie four adjustable tiers holding up to 24 pairs of shoes, complete with rear air ventilation slots to keep footwear fresh.",
+    features: [
+      "Slimline 36 cm depth designed specifically for entryways and corridors",
+      "Holds 20-24 pairs of adult shoes across four adjustable tiers",
+      "Concealed rear ventilation airflow slots prevent moisture and odors",
+      "Recessed upper catch-all tray for keys, sunglasses, and fragrances"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1538688525198-9b88f6f53126?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "2 - 4 Business Days",
+    assembly: "Arrives Pre-Assembled with Wall Anti-Tip Hardware",
+    warranty: "10-Year Craftsmanship Warranty",
+    reviews: [
+      {
+        id: "rev-25",
+        author: "Meryem A.",
+        city: "Rabat, Maroc",
+        rating: 5,
+        date: "4 days ago",
+        comment: "Parfait pour notre entrée ! Très peu encombrant en profondeur mais contient toutes nos chaussures sans désordre.",
+        verified: true
+      }
+    ]
+  },
+  {
+    id: "sahara-sculptural-ceramic-vases-set",
+    name: "Sahara Sculptural Hand-Thrown Ceramic Vases (Set of 3)",
+    arabicName: "طقم مزهريات صحراء الخزفية النحتية - 3 قطع (مزهريات وديكور)",
+    tagline: "Trio of textured sand-matte terracotta & porous ceramic sculptural vessels for olive branches & pampas",
+    category: "living-room",
+    categoryLabel: "Decor & Vases",
+    price: 260,
+    originalPrice: 320,
+    rating: 4.9,
+    reviewsCount: 52,
+    isBestseller: true,
+    isNew: true,
+    inStock: true,
+    stockCount: 22,
+    material: "Hand-Thrown Stoneware Ceramic & Natural Textured Sand Glaze",
+    materialCategory: "stone-marble",
+    colors: [
+      { name: "Textured Sand & Chalk", hex: "#E8DFC8", label: "Desert Sand" },
+      { name: "Terracotta Earth", hex: "#B85D43", label: "Terracotta" },
+      { name: "Basalt Charcoal", hex: "#32302E", label: "Basalt Black" }
+    ],
+    dimensions: {
+      width: "Large: 22 cm, Med: 18 cm, Small: 14 cm",
+      depth: "Large: 22 cm, Med: 18 cm, Small: 14 cm",
+      height: "Large: 38 cm, Med: 28 cm, Small: 18 cm",
+      weight: "8.2 kg (Trio total)"
+    },
+    description: "Inspired by the organic dunes of the Sahara and traditional Moroccan potteries of Safi. Each vase in this trio is hand-thrown on a potter's wheel and finished with raw tactile textured slip glaze. 100% watertight for fresh flowers, olive branches, or dried botanical pampas.",
+    features: [
+      "Complete set of 3 complementary organic tiered vases",
+      "Hand-thrown heavy stoneware ceramic with textured raw slip",
+      "100% Watertight glazed interior for fresh floral arrangements",
+      "Soft padded silicone protective feet prevent scratching table surfaces"
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1533779283484-84e1871a2575?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1532323544230-7191fd51bc1b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    deliveryEstimate: "1 - 3 Business Days",
+    assembly: "Arrives in Custom Foam Fitted Gift Box",
+    warranty: "Breakage-Free Safe Delivery Guarantee",
+    reviews: [
+      {
+        id: "rev-26",
+        author: "Leila C.",
+        city: "Casablanca, Maroc",
+        rating: 5,
+        date: "1 week ago",
+        comment: "Le trio de vases est superbe sur notre table basse en travertin avec des branches d'olivier. Texture minérale sublime.",
+        verified: true
+      }
+    ]
   }
 ];
 
@@ -968,6 +1358,33 @@ export const FURNITURE_LOOKBOOK: LookbookItem[] = [
     image: "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1200&q=80",
     featuredProductId: "dune-velvet-swivel-armchair",
     description: "360-degree silent brushed brass swivel armchair enveloping the reader in cocooning comfort."
+  },
+  {
+    id: "lookbook-7",
+    title: "The Grand Banqueting Dining Ensemble",
+    arabicTitle: "طقم مائدة الطعام الكاملة بالكراسي",
+    space: "Dining",
+    image: "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "majlis-oak-dining-set-with-chairs",
+    description: "Solid French oak 240 cm dining table unified with 6 curved Elysian bouclé armchairs."
+  },
+  {
+    id: "lookbook-8",
+    title: "Sculptural Ceramic & Floral Vessels",
+    arabicTitle: "طقم مزهريات صحراء الخزفية النحتية",
+    space: "Living Room",
+    image: "https://images.unsplash.com/photo-1616046229478-9901c5536a45?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "sahara-sculptural-ceramic-vases-set",
+    description: "Trio of hand-thrown stoneware pottery vessels creating textural serenity on travertine tables."
+  },
+  {
+    id: "lookbook-9",
+    title: "Fluted Oak Entryway Shoe Sanctuary",
+    arabicTitle: "خزانة أحذية أندلس والمدخل العصري",
+    space: "Living Room",
+    image: "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
+    featuredProductId: "andalus-fluted-oak-shoe-cabinet",
+    description: "Minimalist fluted timber shoe storage holding 24+ pairs without hallway clutter."
   }
 ];
 

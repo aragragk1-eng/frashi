@@ -67,7 +67,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search sofas, oak tables, travertine, bedroom..."
+            placeholder="ابحث عن أريكة، خزانة ملابس، مائدة، مصابيح، مزهريات... / Search furniture..."
             className="w-full text-base bg-transparent border-none outline-none text-frashi-dark placeholder-frashi-stone font-medium"
           />
           {query && (
@@ -90,20 +90,28 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose }) => 
         {!query && (
           <div className="p-6">
             <p className="text-xs font-semibold text-frashi-stone tracking-wider uppercase mb-3">
-              Popular Searches
+              كلمات البحث الشائعة • Popular Searches
             </p>
             <div className="flex flex-wrap gap-2 mb-6">
-              {['Bouclé Sofa', 'Travertine Coffee Table', 'Oak Bed', 'Dining Chairs', 'Executive Desk'].map(
-                (term) => (
-                  <button
-                    key={term}
-                    onClick={() => setQuery(term)}
-                    className="px-3 py-1.5 rounded-full text-xs font-medium bg-frashi-sand hover:bg-frashi-linen text-frashi-charcoal transition-colors"
-                  >
-                    {term}
-                  </button>
-                )
-              )}
+              {[
+                'أريكة للنوم',
+                'أريكة صغيرة',
+                'مائدة بالكراسي',
+                'خزانة ملابس',
+                'خزانة الأحذية',
+                'مصابيح',
+                'مزهريات',
+                'Bouclé Sofa',
+                'Oak Bed'
+              ].map((term) => (
+                <button
+                  key={term}
+                  onClick={() => setQuery(term)}
+                  className="px-3 py-1.5 rounded-full text-xs font-medium bg-frashi-sand hover:bg-frashi-linen text-frashi-charcoal transition-colors"
+                >
+                  {term}
+                </button>
+              ))}
             </div>
 
             <p className="text-xs font-semibold text-frashi-stone tracking-wider uppercase mb-3">
